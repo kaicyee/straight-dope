@@ -1,0 +1,79 @@
+.sidebar {
+  width: 260px;
+  background: #111111;
+  border-right: 1px solid #333;
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+}
+
+.sidebar-header {
+  padding: 16px;
+  border-bottom: 1px solid #333;
+}
+
+.sidebar-header h1 {
+  font-size: 18px;
+  margin: 0 0 12px 0;
+  color: #e8e8e8;
+  letter-spacing: 0.5px;
+}
+
+.new-conversation-btn {
+  width: 100%;
+  padding: 10px;
+  background: #c0392b;
+  border: 1px solid #c0392b;
+  border-radius: 6px;
+  color: #fff;
+  cursor: pointer;
+  font-size: 14px;
+  transition: background 0.2s;
+  font-weight: 600;
+}
+
+.new-conversation-btn:hover {
+  background: #a93226;
+  border-color: #a93226;
+}
+
+.conversation-list {
+  flex: 1;
+  overflow-y: auto;
+  padding: 8px;
+}
+
+.no-conversations {
+  padding: 16px;
+  text-align: center;
+  color: #666;
+  font-size: 14px;
+}
+
+.conversation-item {
+  padding: 12px;
+  margin-bottom: 4px;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: background 0.2s;
+}
+
+.conversation-item:hover {
+  background: #222;
+}
+
+.conversation-item.active {
+  background: #2a1a1a;
+  border: 1px solid #c0392b;
+}
+
+.conversation-title {
+  color: #e8e8e8;
+  font-size: 14px;
+  margin-bottom: 4px;
+}
+
+.conversation-meta {
+  color: #666;
+  font-size: 12px;
+}

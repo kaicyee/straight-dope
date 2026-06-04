@@ -1,0 +1,41 @@
+# Dependencies
+node_modules/
+__pycache__/
+*.pyc
+*.pyo
+*.egg-info/
+dist/
+build/
+.venv/
+venv/
+
+# Environment variables
+.env
+.env.local
+.env.*.local
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+
+# Build outputs
+*.log
+*.out
+
+# OS
+Thumbs.db
+
+# Frontend builds
+frontend/dist/
+frontend/build/
+
+# Backend virtualenv
+backend/.venv/
+backend/venv/
+
+# Data (local development only)
+data/conversations/*.json

@@ -1,0 +1,50 @@
+.stage3 {
+  background: #1a1a2e;
+  border-color: #2a2a4e;
+}
+
+.stage3 .stage-title {
+  color: #a0a0d0;
+}
+
+.verdict-section {
+  margin-bottom: 20px;
+  background: #111120;
+  padding: 20px;
+  border-radius: 6px;
+}
+
+.verdict-section:last-child {
+  margin-bottom: 0;
+}
+
+.verdict-label {
+  font-size: 11px;
+  font-family: monospace;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 1.5px;
+  margin-bottom: 12px;
+}
+
+.outcome-label {
+  color: #e67e22;
+}
+
+.resolution-label {
+  color: #27ae60;
+}
+
+.outcome-section {
+  border-left: 3px solid #e67e22;
+}
+
+.resolution-section {
+  border-left: 3px solid #27ae60;
+}
+
+.verdict-text {
+  color: #d8d8e8;
+  line-height: 1.7;
+  font-size: 15px;
+}

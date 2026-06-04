@@ -1,0 +1,32 @@
+.stage2 {
+  background: #222;
+}
+
+.stage-description {
+  margin: -8px 0 16px 0;
+  color: #888;
+  font-size: 13px;
+  line-height: 1.5;
+}
+
+.stage2 .tab-content {
+  background: #1a1a1a;
+  padding: 16px;
+  border-radius: 6px;
+  border: 1px solid #333;
+}
+
+.role-label {
+  font-size: 12px;
+  font-family: monospace;
+  font-weight: 700;
+  margin-bottom: 12px;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+
+.challenge-text {
+  color: #d8d8d8;
+  line-height: 1.6;
+  font-size: 14px;
+}

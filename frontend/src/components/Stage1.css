@@ -1,0 +1,64 @@
+.stage {
+  margin: 24px 0;
+  padding: 20px;
+  background: #222;
+  border-radius: 8px;
+  border: 1px solid #333;
+}
+
+.stage-title {
+  margin: 0 0 16px 0;
+  color: #e8e8e8;
+  font-size: 16px;
+  font-weight: 600;
+}
+
+.tabs {
+  display: flex;
+  gap: 8px;
+  margin-bottom: 16px;
+  flex-wrap: wrap;
+}
+
+.tab {
+  padding: 8px 16px;
+  background: #1a1a1a;
+  border: 1px solid #444;
+  border-radius: 6px 6px 0 0;
+  color: #888;
+  cursor: pointer;
+  font-size: 14px;
+  transition: all 0.2s;
+}
+
+.tab:hover {
+  background: #2a2a2a;
+  color: #e8e8e8;
+}
+
+.tab.active {
+  background: #1a1a1a;
+  border-bottom-color: #1a1a1a;
+  font-weight: 600;
+}
+
+.tab-content {
+  background: #1a1a1a;
+  padding: 16px;
+  border-radius: 6px;
+  border: 1px solid #333;
+}
+
+.role-label {
+  font-size: 12px;
+  font-family: monospace;
+  font-weight: 700;
+  margin-bottom: 12px;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+
+.response-text {
+  color: #d8d8d8;
+  line-height: 1.6;
+}
