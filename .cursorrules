@@ -156,7 +156,9 @@ Straight Dope development follows the **Relentless Turtles** methodology:
 
 ---
 
-## Git Commit Standards
+## Git Workflow Standards
+
+### Git Add & Commit (Andrej Responsibility)
 
 Before any git commit:
 
@@ -169,6 +171,19 @@ Before any git commit:
 - Feature commits separate from cleanup
 - Keep commits focused (one feature per commit)
 - Use clear messages that future-you can understand
+
+**Andrej's role:** Create clean, well-documented commits and tell Kai they're ready.
+
+### Git Push to Remote (Kai Responsibility)
+
+**`git push origin main` is YOUR job, not Andrej's.**
+
+Why: Remote pushes involve authentication, access control, and are your decision point for what goes live. Andrej creates clean commits; Kai decides when/if they go to the remote.
+
+**Standard flow:**
+1. Andrej: `git add` + `git commit` with clear message
+2. Andrej: "Commit ready. Message: [summary]"
+3. Kai: Reviews message and runs `git push origin main`
 
 ---
 
